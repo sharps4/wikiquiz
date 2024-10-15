@@ -13,17 +13,16 @@ npm install
 
 ## Usage
 
+Start the react-app
+
+```bash
+npm start
+```
+
 Start the server :
 
 ```bash
 cd server
-npm start
-```
-
-Start the react-app
-
-```bash
-cd wikiquiz
 npm start
 ```
 
