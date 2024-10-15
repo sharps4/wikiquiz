@@ -2,7 +2,7 @@
 
 # SharpsAI
 
-This project is a little game based on the Wikipedia API, where the objectives is to guess the article title.
+This project is a little game based on the Wikipedia API, where the objective is to guess the article title.
 
 ## Installation
 
