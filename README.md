@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/github/license/sharps4/SharpsAI)](https://github.com/sharps4/SharpsAI/LICENSE)
+[![License](https://img.shields.io/github/license/sharps4/wikiquiz)](https://github.com/sharps4/wikiquiz/LICENSE)
 
 # SharpsAI
 
