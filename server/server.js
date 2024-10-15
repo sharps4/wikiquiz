@@ -10,8 +10,9 @@ app.get('/api/random-article', async (req, res) => {
     const pageId = Object.keys(extractResponse.data.query.pages)[0];
     const extract = extractResponse.data.query.pages[pageId].extract;
 
-    // Remplacer toutes les occurrences du titre de l'article par un placeholder
-    const sanitizedExtract = extract.replace(new RegExp(article.title, 'gi'), '[mot caché]');
+    const titleParts = article.title.split(/,| /).map(part => part.trim());
+    const titlePattern = new RegExp(`\\b(${titleParts.join('|')})\\b`, 'gi');
+    const sanitizedExtract = extract.replace(titlePattern, '[mot caché]');
 
     res.json({ title: article.title, extract: sanitizedExtract });
   } catch (error) {
