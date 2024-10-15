@@ -2,7 +2,7 @@
 
 # SharpsAI
 
-The site presents you with a random article with the title hidden and the goal is to find it only with the information present in the article.
+This project is a little game based on the Wikipedia API, where the objective is to guess the article title.
 
 ## Installation
 
